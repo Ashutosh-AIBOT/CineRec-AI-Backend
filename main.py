@@ -311,6 +311,11 @@ def load_pickles():
 # =========================
 # ROUTES
 # =========================
+@app.get("/")
+def root():
+    return {"message": "CineRec Movie Discovery API is Online! 🚀", "status": "ok"}
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
