@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Storage
+*.pkl
+*.csv
+!df.pkl
+!tfidf.pkl
+!tfidf_matrix.pkl
+!indices.pkl
+
+# System
+.DS_Store
+Thumbs.db
